@@ -25,6 +25,7 @@
 		F8BD3A8717218F8D00017FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BD3A5C17218F8D00017FB0 /* Foundation.framework */; };
 		F8BD3A8F17218F8D00017FB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8BD3A8D17218F8D00017FB0 /* InfoPlist.strings */; };
 		F8BD3A9217218F8D00017FB0 /* VirtualCallBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD3A9117218F8D00017FB0 /* VirtualCallBoardTests.m */; };
+		F8BD3ACC17219F2600017FB0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD3ACB17219F2600017FB0 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		F8BD3A8E17218F8D00017FB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8BD3A9017218F8D00017FB0 /* VirtualCallBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualCallBoardTests.h; sourceTree = "<group>"; };
 		F8BD3A9117218F8D00017FB0 /* VirtualCallBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualCallBoardTests.m; sourceTree = "<group>"; };
+		F8BD3ACA17219F2600017FB0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F8BD3ACB17219F2600017FB0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				F8BD3A7917218F8D00017FB0 /* MasterViewController.m */,
 				F8BD3A7B17218F8D00017FB0 /* DetailViewController.h */,
 				F8BD3A7C17218F8D00017FB0 /* DetailViewController.m */,
+				F8BD3ACA17219F2600017FB0 /* LoginViewController.h */,
+				F8BD3ACB17219F2600017FB0 /* LoginViewController.m */,
 				F8BD3A6117218F8D00017FB0 /* Supporting Files */,
 			);
 			path = VirtualCallBoard;
@@ -283,6 +288,7 @@
 				F8BD3A6B17218F8D00017FB0 /* AppDelegate.m in Sources */,
 				F8BD3A7A17218F8D00017FB0 /* MasterViewController.m in Sources */,
 				F8BD3A7D17218F8D00017FB0 /* DetailViewController.m in Sources */,
+				F8BD3ACC17219F2600017FB0 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +479,7 @@
 				F8BD3A9717218F8D00017FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8BD3A9817218F8D00017FB0 /* Build configuration list for PBXNativeTarget "VirtualCallBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +488,7 @@
 				F8BD3A9A17218F8D00017FB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
